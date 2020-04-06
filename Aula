@@ -1,0 +1,9 @@
+times = ("Palmeiras","Ponte Preta","São Paulo","Atletico-PR","Santos","Oeste","Novorizontino","Ituano","Botafogo-SP","Corinthians")
+ti = (1,"Palmeiras",2,"Ponte Preta","São Paulo","Atletico-PR","Santos","Oeste","Novorizontino","Ituano","Botafogo-SP","Corinthians")
+print(f'Os cinco primeiros colocados são: {times[0:-5]}\n')
+t = ti[ti.index("Palmeiras") + 1]
+print(f'Os quatro ultimos colocados são: {times[6:]}\n')
+print(f'Times em ordem alfabética: {sorted(times)}\n')
+print(f'A colocação da Chapecoense eu nao sei pq ela e catarinense e nao paulista! coloquei a ponte preta no lugar XD\n')
+print(f'A colocação da Ponte Preta é:{t} Lugar')
+
